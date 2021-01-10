@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Doğruluk-Cesaret</string>
+    <string name="sise">DOĞRULUK MU?</string>
+    <string name="cevirmece">CESARET Mİ?</string>
+
+
+
+    <string name="html_title">
+
+          <![CDATA[
+                     <a><font color=#8B4789>Nasıl Oynanır?</a>
+
+                ]]>
+      </string>
+
+    <string name="html">
+
+          <![CDATA[
+
+          <font color=#ffffff>
+                     <a>Oyun şişe çevirimesi ve şişenin işaret ettiği
+                     kişinin doğruluk yada cesaret sorularının gereğini yerine getirmekten ibarettir.</a>
+
+                     <br><br>
+                     Kişi doğruluk ya da cesaret sorusunu yerine getirmezse eski usül cetvelle eline vurulur.
+                     Cetvelle eline vurulmasına razı olmuş sayılır.
+                    <br><br>
+                     İyi Eğlenceler
+            </font>
+                ]]>
+      </string>
+
+
+    <string name="html_title1">
+
+          <![CDATA[
+                     <a><center><font color=#ffffff>Bahtsız bedevi! Eksta görev.<center></a>
+
+                ]]>
+      </string>
+
+    <string name="sarki">
+
+          <![CDATA[
+                     <a><center><font color=#ffffff>Şarkı Söyle<center></a>
+
+                ]]>
+      </string>
+
+    <string name="turku">
+
+          <![CDATA[
+                     <a><center><font color=#ffffff>Türkü Söyle<center></a>
+
+                ]]>
+      </string>
+
+    <string name="uzunhavaoku">
+
+          <![CDATA[
+                     <a><center><font color=#ffffff>Uzun Hava Oku<center></a>
+
+                ]]>
+      </string>
+
+    <string name="fikraanlat">
+
+          <![CDATA[
+                     <a><center><font color=#ffffff>Fıkra Anlat<center></a>
+
+                ]]>
+      </string>
+
+    <string name="manioku">
+
+          <![CDATA[
+                     <a><center><font color=#ffffff>Mani Oku<center></a>
+
+                ]]>
+      </string>
+
+    <string name="tekerlemeoku">
+
+          <![CDATA[
+                     <a><center><font color=#ffffff>Tekerleme Söyle<center></a>
+
+                ]]>
+      </string>
+
+    <string name="gazeloku">
+
+          <![CDATA[
+                     <a><center><font color=#ffffff>Gazel Oku<center></a>
+
+                ]]>
+      </string>
+
+    <string name="siiroku">
+
+          <![CDATA[
+                     <a><center><font color=#ffffff>Şiir Oku<center></a>
+
+                ]]>
+      </string>
+
+    <string name="taklidyap">
+
+          <![CDATA[
+                     <a><center><font color=#ffffff>Şaban Taklidi Yap<center></a>
+
+                ]]>
+      </string>
+
+    <string name="ayarlar">Ses</string>
+
+</resources>

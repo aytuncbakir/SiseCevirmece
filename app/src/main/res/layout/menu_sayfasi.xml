@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/klay"
+    android:orientation="vertical"
+    android:background="@drawable/logoo"
+    tools:context="com.sivamalabrothers.sisecevirmece.MenuSayfasi">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_giris_tasarim"
+        android:layout_centerVertical="true">
+
+
+        <TextView
+            android:id="@+id/tv_baslik"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/soru"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/ruya_baslik"
+            android:text=""
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/lay1"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/tv_baslik"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button_tasarim_selector"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/sise"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/basla" />
+
+            <TextView
+                android:id="@+id/tsise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text=" "
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay2"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/lay1"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button_tasarim_selector"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/dogruluk"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/dogru" />
+
+            <TextView
+                android:id="@+id/tdogruluk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay3"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/lay2"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button_tasarim_selector"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/cesaret"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/cesaret" />
+
+            <TextView
+                android:id="@+id/tcesaret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay4"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/lay3"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button_tasarim_selector"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/dogces"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/dogrucesaret" />
+
+            <TextView
+                android:id="@+id/tdogces"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:id="@+id/reklam_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/reklam_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/reklam_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
